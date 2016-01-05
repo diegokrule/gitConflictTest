@@ -6,7 +6,7 @@ public class util {
 	
 	public static Cliente createCliente(){
 		Cliente c=new Cliente();
-		c.setNombre("Juan");
+		c.setNombre_a("Juan");
 		c.setApellido("Perez");
 		return c;
 	}

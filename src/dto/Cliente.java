@@ -4,17 +4,19 @@ import java.util.List;
 
 public class Cliente {
 	
-	private String nombre;
+	private String nombre_a;
 	private String apellido;
 	
 	private List<Factura>facturas;
 
-	public String getNombre() {
-		return nombre;
+
+
+	public String getNombre_a() {
+		return nombre_a;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void setNombre_a(String nombre_a) {
+		this.nombre_a = nombre_a;
 	}
 
 	public String getApellido() {
